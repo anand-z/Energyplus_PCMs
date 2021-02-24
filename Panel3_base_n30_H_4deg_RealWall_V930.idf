@@ -11,7 +11,7 @@ Material,
     0.006,                   !- Thickness {m}
     1.09,                    !- Conductivity {W/m-K}
     576.7,                   !- Density {kg/m3}
-    3.14,                    !- Specific Heat {J/kg-K}
+    3140,                    !- Specific Heat {J/kg-K}
     0.9,                     !- Thermal Absorptance
     0.7,                     !- Solar Absorptance
     0.7;                     !- Visible Absorptance
@@ -22,7 +22,7 @@ Material,
     0.006,                   !- Thickness {m}
     0.54,                    !- Conductivity {W/m-K}
     845.8,                   !- Density {kg/m3}
-    3.14,                    !- Specific Heat {J/kg-K}
+    3140,                    !- Specific Heat {J/kg-K}
     0.9,                     !- Thermal Absorptance
     0.7,                     !- Solar Absorptance
     0.7;                     !- Visible Absorptance
@@ -33,7 +33,7 @@ Material,
     0.0125,                  !- Thickness {m}
     0.54,                    !- Conductivity {W/m-K}
     1530,                    !- Density {kg/m3}
-    2.2,                     !- Specific Heat {J/kg-K}
+    2200,                    !- Specific Heat {J/kg-K}
     0.9,                     !- Thermal Absorptance
     0.7,                     !- Solar Absorptance
     0.7;                     !- Visible Absorptance
@@ -44,7 +44,7 @@ Material,
     0.0125,                  !- Thickness {m}
     0.54,                    !- Conductivity {W/m-K}
     1530,                    !- Density {kg/m3}
-    2.2,                     !- Specific Heat {J/kg-K}
+    2200,                    !- Specific Heat {J/kg-K}
     0.9,                     !- Thermal Absorptance
     0.7,                     !- Solar Absorptance
     0.7;                     !- Visible Absorptance
@@ -55,7 +55,7 @@ Material,
     0.0125,                  !- Thickness {m}
     0.54,                    !- Conductivity {W/m-K}
     1530,                    !- Density {kg/m3}
-    2.2,                     !- Specific Heat {J/kg-K}
+    2200,                    !- Specific Heat {J/kg-K}
     0.9,                     !- Thermal Absorptance
     0.7,                     !- Solar Absorptance
     0.7;                     !- Visible Absorptance
@@ -66,7 +66,7 @@ Material,
     0.0125,                  !- Thickness {m}
     0.36,                    !- Conductivity {W/m-K}
     1055,                    !- Density {kg/m3}
-    1.63,                    !- Specific Heat {J/kg-K}
+    1630,                    !- Specific Heat {J/kg-K}
     0.9,                     !- Thermal Absorptance
     0.7,                     !- Solar Absorptance
     0.7;                     !- Visible Absorptance
@@ -77,7 +77,7 @@ Material,
     0.0125,                  !- Thickness {m}
     0.22,                    !- Conductivity {W/m-K}
     770,                     !- Density {kg/m3}
-    2.2,                     !- Specific Heat {J/kg-K}
+    2200,                    !- Specific Heat {J/kg-K}
     0.9,                     !- Thermal Absorptance
     0.7,                     !- Solar Absorptance
     0.7;                     !- Visible Absorptance
@@ -88,7 +88,7 @@ Material,
     0.0125,                  !- Thickness {m}
     0.18,                    !- Conductivity {W/m-K}
     785,                     !- Density {kg/m3}
-    2.22,                    !- Specific Heat {J/kg-K}
+    2220,                    !- Specific Heat {J/kg-K}
     0.9,                     !- Thermal Absorptance
     0.7,                     !- Solar Absorptance
     0.7;                     !- Visible Absorptance
@@ -99,7 +99,7 @@ Material,
     0.125,                   !- Thickness {m}
     0.45,                    !- Conductivity {W/m-K}
     1100,                    !- Density {kg/m3}
-    3.35,                    !- Specific Heat {J/kg-K}
+    3350,                    !- Specific Heat {J/kg-K}
     0.9,                     !- Thermal Absorptance
     0.7,                     !- Solar Absorptance
     0.7;                     !- Visible Absorptance
@@ -2322,7 +2322,7 @@ Construction,
     ExteriorFinish,          !- Outside Layer
     Plywood-1_2in,           !- Layer 2
     StudandCavity,           !- Layer 3
-    PCMpouchesP4,            !- Layer 4
+    S23,                     !- Layer 4
     GypsumDrywall;           !- Layer 5
 
 WindowMaterial:Glazing,
